@@ -8,7 +8,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/Jeff Betten|Jeff/i, '[The straight up pussy bitch]');
+            var replacedText = text.replace(/Jeff Betten|Jeff/i, 'The straight up pussy bitch');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
